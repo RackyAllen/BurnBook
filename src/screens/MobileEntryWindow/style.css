@@ -1,0 +1,330 @@
+.mobile-entry-window {
+  width: 100%;
+  height: 100vh;
+  background-color: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #E2E8F0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.mobile-entry-header-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-back-btn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #0F172A;
+  cursor: pointer;
+}
+
+.mobile-entry-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background-color: #F3F4F6;
+}
+
+.mobile-entry-content {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 120px);
+}
+
+.mobile-entry-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-entry-sections {
+  flex: 1;
+}
+
+.mobile-entry-section {
+  margin-bottom: 24px;
+}
+
+.mobile-entry-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 8px;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-type-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.mobile-entry-type-btn {
+  flex: 1;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", Helvetica;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  transition: all 0.2s ease;
+}
+
+.mobile-entry-type-btn.active {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.mobile-entry-type-btn:hover:not(.active) {
+  background-color: #e5e7eb;
+}
+
+.mobile-entry-type-btn .button-icon {
+  filter: brightness(0);  /* Makes the icon black */
+}
+
+.mobile-entry-type-btn.active .button-icon {
+  filter: brightness(0) invert(1);  /* Makes the icon white */
+}
+
+.mobile-entry-meal-types,
+.mobile-entry-workout-types {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.mobile-entry-time-types {
+  display: flex;
+  gap: 8px;
+}
+
+.mobile-entry-time-types .mobile-time-type-btn {
+  flex: 1;
+  white-space: nowrap;
+  padding: 12px 8px;
+  min-width: 0;
+}
+
+.mobile-entry-type-btn,
+.mobile-meal-type-btn,
+.mobile-workout-type-btn,
+.mobile-time-type-btn {
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  background-color: white;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", Helvetica;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-entry-type-btn:hover,
+.mobile-meal-type-btn:hover,
+.mobile-workout-type-btn:hover,
+.mobile-time-type-btn:hover {
+  background-color: #F8FAFC;
+  border-color: #CBD5E1;
+}
+
+.mobile-entry-type-btn.active,
+.mobile-meal-type-btn.active,
+.mobile-workout-type-btn.active,
+.mobile-time-type-btn.active {
+  background-color: #F97316;
+  border-color: #F97316;
+  color: white;
+}
+
+.mobile-entry-input-group {
+  position: relative;
+}
+
+.mobile-entry-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Poppins", Helvetica;
+  color: #374151;
+  background-color: white;
+  transition: border-color 0.2s ease;
+}
+
+.mobile-entry-input:focus {
+  outline: none;
+  border-color: #F97316;
+}
+
+.mobile-entry-input::placeholder {
+  color: #ADAEBC;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-meals-section {
+  margin-top: 24px;
+}
+
+.mobile-entry-meals-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 12px;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-meals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-entry-meal-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-entry-meal-item:hover {
+  background-color: #F8FAFC;
+  border-color: #CBD5E1;
+}
+
+.mobile-entry-meal-item.active {
+  background-color: #FFF7ED;
+  border-color: #F97316;
+}
+
+.mobile-entry-meal-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.mobile-entry-meal-info {
+  flex: 1;
+}
+
+.mobile-entry-meal-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0F172A;
+}
+
+.mobile-entry-meal-calories {
+  font-size: 12px;
+  color: #64748B;
+  margin-top: 2px;
+}
+
+.mobile-entry-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #F97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", Helvetica;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 24px;
+}
+
+.mobile-entry-submit-btn:hover {
+  background-color: #EA580C;
+}
+
+.mobile-entry-submit-btn:disabled {
+  background-color: #CBD5E1;
+  cursor: not-allowed;
+}
+
+.mobile-entry-select {
+  width: 100%;
+  height: 47px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-family: "Poppins", Helvetica;
+  color: #374151;
+  background-color: white;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('/img/frame-27-2.svg');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.mobile-entry-select option {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  color: #374151;
+  padding: 8px;
+}
+
+.mobile-entry-select option[value=""][disabled] {
+  color: #ADAEBC;
+  font-family: "Poppins", Helvetica;
+}
+
+.mobile-entry-select:focus {
+  outline: none;
+  border-color: #F97316;
+}
+
+/* Remove old list styles */
+.mobile-entry-meals-list,
+.mobile-entry-meal-item,
+.mobile-entry-meal-icon,
+.mobile-entry-meal-info,
+.mobile-entry-meal-name,
+.mobile-entry-meal-calories {
+  /* These styles will be removed */
+}

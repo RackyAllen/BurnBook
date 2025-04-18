@@ -1,0 +1,690 @@
+.mobile-signup {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile-signup .body-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mobile-signup .overlap-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-signup .overlap-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.mobile-signup .main-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.mobile-signup .header-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.mobile-signup .div-30 {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mobile-signup .div-31 {
+  width: 100%;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.mobile-signup .text-wrapper-24 {
+  color: #1f2937;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.mobile-signup .text-wrapper-25 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+}
+
+.mobile-signup .div-32 {
+  width: 100%;
+  max-width: 358px;
+  margin: 40px auto 0;
+  position: relative;
+}
+
+.mobile-signup .div-33 {
+  margin-bottom: 24px;
+  position: relative;
+  top: -20px;
+}
+
+.mobile-signup .div-33 .error-message {
+  display: none;
+}
+
+.mobile-signup .label-6 {
+  display: block;
+  margin-bottom: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-signup .text-wrapper-26 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-signup .div-34 {
+  margin-bottom: 24px;
+  position: relative;
+  top: 35px;
+}
+
+.mobile-signup .div-34 .error-message {
+  display: none;
+}
+
+.mobile-signup .label-7 {
+  display: block;
+  position: relative;
+  width: auto;
+}
+
+.mobile-signup .text-wrapper-27 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: auto;
+}
+
+.mobile-signup .div-35 {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -24px;
+  width: 358px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.mobile-signup .overlap-group-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.mobile-signup .overlap-group-2 {
+  width: 100%;
+  position: relative;
+}
+
+.mobile-signup .input-4,
+.mobile-signup .input-5 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mobile-signup .input-4 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  padding-left: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.mobile-signup .input-4.input-error {
+  border-color: #ef4444;
+}
+
+.mobile-signup .error-message {
+  display: none;
+}
+
+.mobile-signup .frame-10 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 16px;
+}
+
+.mobile-signup .frame-11 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.mobile-signup .frame-12 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 50px;
+  position: absolute;
+  top: 16px;
+  width: 15px;
+}
+
+.mobile-signup .frame-13 {
+  height: 16px;
+  position: relative;
+  width: 15.25px;
+}
+
+.mobile-signup .frame-14 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 56px;
+  position: absolute;
+  top: 16px;
+  width: 12px;
+}
+
+.mobile-signup .frame-15 {
+  height: 16px;
+  position: relative;
+  width: 12px;
+}
+
+.mobile-signup .frame-16 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+
+.mobile-signup .frame-17 {
+  height: 20px;
+  position: relative;
+  width: 17.5px;
+}
+
+.mobile-signup .text-wrapper-28 {
+  color: #f97316;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 238px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 100px;
+  width: 119px;
+}
+
+.mobile-signup .input-5 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  padding-left: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.mobile-signup .input-5.input-error {
+  border-color: #ef4444;
+}
+
+.mobile-signup .text-wrapper-29 {
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  width: 156px;
+}
+
+.mobile-signup .group-wrapper {
+  border: 0px none;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.mobile-signup .group {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.mobile-signup .div-36 {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 358px;
+}
+
+.mobile-signup .input-6 {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #000000;
+  border-radius: 1px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.mobile-signup .input-6:checked {
+  background-color: #f97316;
+  border-color: #f97316;
+}
+
+.mobile-signup .input-6:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  left: 3px;
+  top: -1px;
+  font-size: 12px;
+}
+
+.mobile-signup .text-wrapper-30 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 5px;
+  width: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+
+.mobile-signup .button-4 {
+  all: unset;
+  background-color: #f97316;
+  border: 0px none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 196px;
+  width: 358px;
+}
+
+.mobile-signup .text-wrapper-31 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 60px;
+}
+
+.mobile-signup .div-37 {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 260px;
+  width: 358px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-signup .don-t-have-an {
+  color: #4b5563;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.mobile-signup .text-wrapper-32 {
+  color: #f97316;
+  display: inline-block;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.mobile-signup .div-38 {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 350px;
+  width: 358px;
+}
+
+.mobile-signup .overlap-3 {
+  height: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-signup .span {
+  background-color: #ffffff;
+  border: 0px none;
+  height: 20px;
+  position: relative;
+  width: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-signup .div-39 {
+  border-color: #e5e7eb;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 108px;
+}
+
+.mobile-signup .div-39.right-line {
+  left: auto;
+  right: 0;
+}
+
+.mobile-signup .text-wrapper-33 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 124px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.mobile-signup .div-40 {
+  border: 0px none;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 386px;
+  width: 358px;
+}
+
+.mobile-signup .button-5 {
+  all: unset;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 171px;
+}
+
+.mobile-signup .text-wrapper-34 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 73px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 48px;
+}
+
+.mobile-signup .button-6 {
+  all: unset;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 187px;
+  position: absolute;
+  top: 0;
+  width: 171px;
+}
+
+.mobile-signup .text-wrapper-35 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 38px;
+}
+
+.mobile-signup .div-41 {
+  border: 0px none;
+  height: 28px;
+  left: 16px;
+  position: relative;
+  top: 12px;
+  width: 112px;
+}
+
+.mobile-signup .text-wrapper-36 {
+  color: #1f2937;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 87px;
+}
+
+.mobile-signup .logo-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-top: 24px;
+}
+
+.mobile-signup .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-signup .logo-icon {
+  font-size: 32px;
+}
+
+.mobile-signup .logo-text {
+  color: #0F172A;
+  font-family: "Poppins", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.mobile-signup .button-4:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.mobile-signup .password-requirements {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  position: relative;
+  top: 45px;
+}
+
+.mobile-signup .requirement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  color: #EF4444;
+}
+
+.mobile-signup .requirement input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #EF4444;
+  border-radius: 2px;
+  position: relative;
+}
+
+.mobile-signup .requirement input[type="checkbox"]:checked {
+  background-color: #10B981;
+  border-color: #10B981;
+}
+
+.mobile-signup .requirement input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  left: 1px;
+  top: -1px;
+  font-size: 10px;
+}
+
+.mobile-signup .requirement.valid {
+  color: #10B981;
+}
+
+.mobile-signup .requirement.valid input[type="checkbox"] {
+  border-color: #10B981;
+}

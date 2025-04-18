@@ -1,0 +1,1 @@
+export { DesktopEntryWindow } from "./DesktopEntryWindow";

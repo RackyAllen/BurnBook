@@ -1,0 +1,510 @@
+.desktop-entry-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.desktop-entry-window .body-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.desktop-entry-window .div-107 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.desktop-entry-window .div-108 {
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 480px;
+  height: 580px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.desktop-entry-window .div-109 {
+  padding: 32px 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop-entry-window .text-wrapper-71 {
+  color: #1f2937;
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.desktop-entry-window .button-16 {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.desktop-entry-window .frame-32 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-entry-window .frame-33 {
+  height: 20px;
+  width: 15px;
+}
+
+.desktop-entry-window .div-110 {
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 88px);
+}
+
+.desktop-entry-window .content-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 320px;
+}
+
+.desktop-entry-window .div-111,
+.desktop-entry-window .div-meal-type,
+.desktop-entry-window .div-113,
+.desktop-entry-window .div-115 {
+  margin-bottom: 16px;
+}
+
+.desktop-entry-window .text-wrapper-72 {
+  color: #374151;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.desktop-entry-window .div-112 {
+  display: flex;
+  gap: 16px;
+}
+
+.desktop-entry-window .button-17,
+.desktop-entry-window .button-18 {
+  width: 200px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.desktop-entry-window .button-17 {
+  width: 200px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  transition: all 0.2s ease;
+}
+
+.desktop-entry-window .button-17.active {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.desktop-entry-window .button-18 {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.desktop-entry-window .text-wrapper-75 {
+  color: #374151;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.desktop-entry-window .input-4 {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.desktop-entry-window .calories-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0 16px;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  color: #374151;
+  background: transparent;
+}
+
+.desktop-entry-window .calories-input::placeholder {
+  color: #adaebc;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.desktop-entry-window .calories-input:focus {
+  outline: none;
+}
+
+.desktop-entry-window .input-4:focus-within {
+  border-color: #f97316;
+}
+
+.desktop-entry-window .text-wrapper-77 {
+  position: absolute;
+  right: 16px;
+  color: #9ca3af;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 8px;
+  background: white;
+}
+
+.desktop-entry-window .text-wrapper-78 {
+  color: #374151;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.desktop-entry-window .select {
+  width: 100%;
+  height: 47px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  position: relative;
+  background: white;
+  cursor: pointer;
+  padding: 0 16px;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  color: #374151;
+  appearance: none;
+  background-image: url('/img/frame-27-2.svg');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.desktop-entry-window .select option[value=""][disabled] {
+  display: none;
+}
+
+.desktop-entry-window .select:invalid {
+  color: #adaebc;
+}
+
+.desktop-entry-window .select option {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  color: #374151;
+  padding: 8px;
+}
+
+.desktop-entry-window .select:focus {
+  outline: none;
+  border-color: #f97316;
+}
+
+.desktop-entry-window .text-wrapper-79 {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #adaebc;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.desktop-entry-window .frame-35 {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.desktop-entry-window .button-19 {
+  width: 100%;
+  height: 44px;
+  background-color: #f97316;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-entry-window .div-116 {
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+/* Remove any conflicting styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.entry-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.entry-modal {
+  width: 480px;
+  height: 473px;
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.entry-modal-header {
+  width: 416px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.entry-modal-header h2 {
+  color: #1F2937;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.close-button {
+  width: 15px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9CA3AF;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.entry-form {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #374151;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 416px;
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #ADAEBC;
+}
+
+.form-group input::placeholder {
+  color: #ADAEBC;
+}
+
+.entry-type-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.entry-type-button {
+  width: 200px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.entry-type-button.active {
+  background: #F97316;
+  color: white;
+}
+
+.entry-type-button.inactive {
+  background: #F3F4F6;
+  color: #374151;
+}
+
+.meal-select {
+  width: 416px;
+  height: 47px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+  background: white;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('/img/frame-27-2.svg');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.save-entry-btn {
+  width: 416px;
+  height: 44px;
+  background: #F97316;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-entry-window .meal-type-buttons {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.desktop-entry-window .meal-type-buttons.three-buttons .meal-type-btn {
+  flex: 1 1 33.33%;
+}
+
+.desktop-entry-window .meal-type-btn {
+  flex: 1;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  background-color: #FFFFFF;
+  color: #1f2937;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.desktop-entry-window .meal-type-btn.active {
+  background-color: #F97316;
+  color: #FFFFFF;
+  border: none;
+}
+
+.desktop-entry-window .meal-type-btn:hover:not(.active) {
+  background-color: #F3F4F6;
+}
+
+.desktop-entry-window .button-17.active {
+  background-color: #F97316;
+  color: #FFFFFF;
+}
+
+.desktop-entry-window .button-18.active {
+  background-color: #F97316;
+  color: #FFFFFF;
+}
+
+.desktop-entry-window .button-icon {
+  filter: brightness(0);  /* Makes the icon black */
+}
+
+.desktop-entry-window .button-icon.active {
+  filter: brightness(0) invert(1);  /* Makes the icon white */
+}

@@ -1,0 +1,320 @@
+.mobile-settings {
+  background-color: #F9FAFB;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-settings-body {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-settings-content {
+  padding: 12px;
+  padding-bottom: 80px; /* Space for nav bar */
+}
+
+.mobile-settings-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #E2E8F0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.mobile-settings-back {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6B7280;
+}
+
+.mobile-settings-title {
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1E293B;
+  margin: 0;
+  text-align: left;
+  flex: 1;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.mobile-settings-section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-settings-section-title {
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 16px 0;
+}
+
+.mobile-settings-subtitle {
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  margin: 12px 0;
+}
+
+.mobile-settings-form-group {
+  margin-bottom: 12px;
+}
+
+.mobile-settings-label {
+  display: block;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.mobile-settings-input-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mobile-settings-input {
+  flex: 1;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  color: #1F2937;
+  background-color: white;
+}
+
+.mobile-settings-input:focus {
+  outline: none;
+  border-color: #F97316;
+  box-shadow: 0 0 0 1px #F97316;
+}
+
+.mobile-settings-input::placeholder {
+  color: #9CA3AF;
+  font-size: 14px;
+}
+
+.mobile-settings-input-error {
+  border-color: #EF4444;
+}
+
+.mobile-settings-error-message {
+  color: #EF4444;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.mobile-settings-select {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  color: #1F2937;
+  background-color: white;
+  appearance: none;
+  background-image: url('/img/frame-27-2.svg');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.mobile-settings-select:focus {
+  outline: none;
+  border-color: #F97316;
+  box-shadow: 0 0 0 1px #F97316;
+}
+
+.mobile-settings-button {
+  height: 40px;
+  padding: 0 16px;
+  background-color: #F97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.mobile-settings-button:hover {
+  background-color: #EA580C;
+}
+
+.mobile-settings-button:disabled {
+  background-color: #D1D5DB;
+  cursor: not-allowed;
+}
+
+.mobile-settings-button-full {
+  width: 100%;
+}
+
+.mobile-settings-divider {
+  height: 1px;
+  background-color: #E5E7EB;
+  margin: 16px 0;
+}
+
+.mobile-settings-bmr-section {
+  margin-top: 12px;
+}
+
+.mobile-settings-bmr-result {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #F3F4F6;
+  border-radius: 8px;
+}
+
+.mobile-settings-bmr-value {
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 6px 0;
+}
+
+.mobile-settings-daily-calories {
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  color: #374151;
+  margin: 0 0 4px 0;
+}
+
+.mobile-settings-bmr-explanation {
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  color: #6B7280;
+  margin: 0;
+}
+
+.mobile-settings-help-section {
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.mobile-settings-support-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background-color: #F8FAFC;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.mobile-settings-support-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.mobile-settings-support-card h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1E293B;
+}
+
+.mobile-settings-support-card p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #64748B;
+}
+
+/* Navigation Bar Styles */
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+  padding: 0;
+  z-index: 10;
+}
+
+.mobile-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #64748B;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.mobile-nav-icon {
+  font-size: 20px;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.mobile-nav-item.active {
+  background: #FFEDD5;
+}
+
+.mobile-nav-item.active .mobile-nav-icon {
+  opacity: 1;
+  color: #F97316;
+}
+
+.mobile-nav-item.primary {
+  background: #F97316;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  transform: translateY(-8px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-plus-icon {
+  color: white;
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-1px);
+  padding-bottom: 4px;
+}

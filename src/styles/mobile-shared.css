@@ -1,0 +1,41 @@
+/* Shared mobile layout styles */
+.mobile-page {
+  width: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mobile-page-content {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  padding-bottom: calc(120px + env(safe-area-inset-bottom, 34px));
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #E2E8F0;
+  padding-bottom: env(safe-area-inset-bottom, 34px);
+  z-index: 1000;
+}
+
+/* Ensure all scrollable containers have proper bottom padding */
+.mobile-entries-list,
+.mobile-settings-list,
+.mobile-meals-list,
+.mobile-content > div {
+  padding-bottom: calc(100px + env(safe-area-inset-bottom, 34px));
+} 

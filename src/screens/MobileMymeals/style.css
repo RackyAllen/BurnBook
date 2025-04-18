@@ -1,0 +1,273 @@
+.mobile-mymeals {
+  width: 100%;
+  height: 100vh;
+  background: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mobile-header {
+  background: white;
+  padding: 16px;
+  border-bottom: 1px solid #E2E8F0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.mobile-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0F172A;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-content {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  padding-bottom: 80px; /* Space for bottom nav */
+}
+
+.mobile-add-meal-section {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-add-meal-section h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #0F172A;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-meal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobile-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-form-group label {
+  font-size: 14px;
+  color: #64748B;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-form-group input,
+.mobile-form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #0F172A;
+  background: #F8FAFC;
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.2s;
+}
+
+.mobile-form-group input:focus,
+.mobile-form-group textarea:focus {
+  outline: none;
+  border-color: #3B82F6;
+}
+
+.mobile-meal-description {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.mobile-save-meal-btn {
+  background: #F97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mobile-save-meal-btn:hover {
+  background: #EA580C;
+}
+
+.mobile-saved-meals-section {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-saved-meals-section h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #0F172A;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-meals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-meal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #F8FAFC;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  transition: all 0.2s;
+}
+
+.mobile-meal-item:hover {
+  background: #F1F5F9;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-meal-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.mobile-meal-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 8px;
+  font-size: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-meal-details {
+  flex: 1;
+}
+
+.mobile-meal-details h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #0F172A;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-meal-details p {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  color: #64748B;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-meal-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-meal-calories {
+  font-size: 14px;
+  color: #0F172A;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-delete-btn {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #F97316;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-delete-btn:hover {
+  opacity: 1;
+}
+
+.mobile-no-meals {
+  text-align: center;
+  padding: 24px;
+  color: #64748B;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  background: white;
+  border-top: 1px solid #E2E8F0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.mobile-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #64748B;
+  gap: 4px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.mobile-nav-item.active {
+  color: #3B82F6;
+}
+
+.mobile-nav-item.primary {
+  background: #3B82F6;
+  color: white;
+  padding: 12px 16px;
+  margin-top: -20px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px rgba(59, 130, 246, 0.25);
+}
+
+.mobile-nav-icon {
+  font-size: 24px;
+}
+
+.mobile-plus-icon {
+  font-size: 24px;
+  font-weight: bold;
+}

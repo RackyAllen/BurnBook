@@ -1,0 +1,548 @@
+.desktop-signup {
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #ced4da;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+}
+
+.desktop-signup .body-6 {
+  align-items: center;
+  justify-content: center;
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.desktop-signup .div-117 {
+  background-color: #f9fafb;
+  border: 0px none;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-signup .div-118 {
+  background-color: #ffffff;
+  border: 0px none;
+  border-radius: 16px;
+  box-shadow: 0px 10px 15px #0000001a;
+  height: auto;
+  min-height: 666px;
+  width: 448px;
+  position: relative;
+  margin: 20px;
+}
+
+.desktop-signup .div-119 {
+  border: 0px none;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  top: 40px;
+}
+
+.desktop-signup .frame-36 {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.desktop-signup .frame-37 {
+  height: 24px;
+  position: relative;
+  width: 21px;
+}
+
+.desktop-signup .text-wrapper-81 {
+  color: #0F172A;
+  font-family: "Poppins", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.desktop-signup .div-120 {
+  border: 0px none;
+  height: 522px;
+  left: 40px;
+  position: absolute;
+  top: 104px;
+  width: 368px;
+}
+
+.desktop-signup .text-wrapper-82 {
+  color: #1f2937;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.desktop-signup .text-wrapper-83 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  white-space: nowrap;
+  width: 260px;
+}
+
+.desktop-signup .div-121 {
+  border: 0px none;
+  height: 192px;
+  left: 0;
+  position: absolute;
+  top: 108px;
+  width: 368px;
+}
+
+.desktop-signup .div-122 {
+  border: 0px none;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 368px;
+}
+
+.desktop-signup .label-5 {
+  border: 0px none;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 89px;
+}
+
+.desktop-signup .text-wrapper-84 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 94px;
+}
+
+.desktop-signup .div-123 {
+  border: 0px none;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 368px;
+}
+
+.desktop-signup .overlap-group-5 {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  height: 42px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop-signup .input-5,
+.desktop-signup .input-6 {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 42px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  padding-left: 40px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.desktop-signup .input-5:focus,
+.desktop-signup .input-6:focus {
+  outline: none;
+}
+
+.desktop-signup .overlap-group-5:focus-within {
+  border-color: #f97316;
+}
+
+.desktop-signup .frame-38 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 12px;
+  position: absolute;
+  top: 13px;
+  width: 16px;
+}
+
+.desktop-signup .frame-39 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-signup .div-124 {
+  border: 0px none;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 86px;
+  width: 368px;
+}
+
+.desktop-signup .div-125 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop-signup .label-6 {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 61px;
+}
+
+.desktop-signup .text-wrapper-85 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.desktop-signup .frame-40 {
+  border: 0px none;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-signup .group-2 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.desktop-signup .button-20 {
+  all: unset;
+  background-color: #f97316;
+  border: 0px none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 324px;
+  width: 368px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.desktop-signup .button-20:hover {
+  background-color: #ea580c;
+}
+
+.desktop-signup .button-20:active {
+  background-color: #c2410c;
+}
+
+.desktop-signup .text-wrapper-89 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.desktop-signup .don-t-have-an-wrapper {
+  border: 0px none;
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 396px;
+  width: 368px;
+}
+
+.desktop-signup .don-t-have-an {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 209px;
+}
+
+.desktop-signup .text-wrapper-90 {
+  color: #4b5563;
+}
+
+.desktop-signup .text-wrapper-91 {
+  color: #f97316;
+  font-weight: 500;
+}
+
+.desktop-signup .overlap-wrapper {
+  border: 0px none;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 440px;
+  width: 368px;
+}
+
+.desktop-signup .overlap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  position: relative;
+}
+
+.desktop-signup .div-61 {
+  border-color: #e5e7eb;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 1px;
+  width: 108px;
+}
+
+.desktop-signup .left-line {
+  margin-right: 8px;
+}
+
+.desktop-signup .right-line {
+  margin-left: 8px;
+}
+
+.desktop-signup .span-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 0 8px;
+}
+
+.desktop-signup .text-wrapper-92 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop-signup .div-128 {
+  border: 0px none;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 484px;
+  width: 368px;
+}
+
+.desktop-signup .button-21 {
+  all: unset;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 176px;
+  cursor: pointer;
+}
+
+.desktop-signup .frame-41 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 54px;
+  position: absolute;
+  top: 11px;
+  width: 15px;
+}
+
+.desktop-signup .frame-42 {
+  height: 16px;
+  position: relative;
+  width: 15.25px;
+}
+
+.desktop-signup .text-wrapper-93 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 48px;
+}
+
+.desktop-signup .button-22 {
+  all: unset;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 38px;
+  left: 192px;
+  position: absolute;
+  top: 0;
+  width: 176px;
+  cursor: pointer;
+}
+
+.desktop-signup .frame-43 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 60px;
+  position: absolute;
+  top: 11px;
+  width: 12px;
+}
+
+.desktop-signup .frame-44 {
+  height: 16px;
+  position: relative;
+  width: 12px;
+}
+
+.desktop-signup .text-wrapper-94 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 38px;
+}
+
+.desktop-signup .overlap-group-5.error {
+  border-color: #ef4444;
+}
+
+.desktop-signup .error-message {
+  color: #ef4444;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 4px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-signup .password-requirements {
+  margin-top: 8px;
+}
+
+.desktop-signup .requirement {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.desktop-signup .requirement input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  cursor: default;
+}
+
+.desktop-signup .requirement span {
+  color: #ef4444;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.desktop-signup .logo-icon {
+  font-size: 32px;
+}

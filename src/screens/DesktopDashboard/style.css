@@ -1,0 +1,703 @@
+/* Desktop Dashboard */
+.desktop-dashboard {
+  width: 100%;
+  height: 100vh;
+  background: #F8FAFC;
+  display: flex;
+}
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+}
+
+.dashboard-layout {
+  flex: 1;
+  display: flex;
+  background: #F8FAFC;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  height: 100%;
+  background: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #E2E8F0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.logo-text {
+  color: #0F172A;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+/* Navigation */
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  cursor: pointer;
+  background: transparent;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  color: #64748B;
+  gap: 12px;
+}
+
+.nav-button:hover {
+  background: #F1F5F9;
+}
+
+.nav-button.primary {
+  background-color: #FF6B00 !important;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button.primary:hover {
+  background-color: #E55C00 !important;
+}
+
+.nav-button.active {
+  background: #FFF7ED;
+  color: #F97316;
+}
+
+.button-icon {
+  font-size: 16px;
+}
+
+.bottom-nav {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 32px;
+  overflow-y: auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  color: #0F172A;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-email {
+  color: #64748B;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.user-avatar {
+  font-size: 20px;
+}
+
+/* Calorie Summary */
+.calorie-summary {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #E2E8F0;
+}
+
+.calorie-goal {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.goal-label {
+  color: #64748B;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.goal-value {
+  color: #0F172A;
+  font-size: 48px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.calorie-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.stat {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.stat-value.eaten {
+  color: #10B981;
+}
+
+.stat-value.burned {
+  color: #F97316;
+}
+
+.stat-value.remaining {
+  color: #3B82F6;
+}
+
+.stat-label {
+  color: #64748B;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #F1F5F9;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progress {
+  height: 100%;
+  background: #F97316;
+  border-radius: 4px;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  color: #64748B;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.calorie-breakdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.calorie-breakdown .eaten {
+  color: #10B981;
+}
+
+.calorie-breakdown .burned {
+  color: #F97316;
+}
+
+.calorie-breakdown .remaining {
+  color: #3B82F6;
+}
+
+.calorie-breakdown .separator {
+  color: #94A3B8;
+}
+
+/* Entries Section */
+.entries-section {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #E2E8F0;
+  margin-bottom: 24px;
+}
+
+.entries-section h2 {
+  color: #0F172A;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.entries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.entry-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.entry-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.entry-icon.meal {
+  background: #DCFCE7;
+  color: #10B981;
+}
+
+.entry-icon.exercise {
+  background: #FFF7ED;
+  color: #F97316;
+}
+
+.entry-name {
+  color: #0F172A;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.entry-calories {
+  color: #10B981;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.entry-calories.burned {
+  color: #F97316;
+}
+
+.entry-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-entry {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 16px;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.delete-entry:hover {
+  opacity: 1;
+}
+
+/* Weight Progress */
+.weight-progress {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-section h2 {
+  color: #1F2937;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.period {
+  color: #6B7280;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+}
+
+.add-weight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #F97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.period-selector {
+  display: flex;
+  gap: 8px;
+  background: #F3F4F6;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.period-btn {
+  padding: 6px 16px;
+  border: none;
+  background: transparent;
+  color: #4B5563;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.period-btn.active {
+  background: #F97316;
+  color: white;
+}
+
+.weight-chart {
+  width: 100%;
+  height: 300px;  /* Set a fixed height */
+  margin: 20px 0;
+  background: #fff;
+}
+
+.weight-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  z-index: 1;
+}
+
+/* SVG Line */
+.weight-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.weight-line path {
+  stroke: #FDBA74;
+  stroke-width: 2;
+  fill: none;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+/* Data point dot */
+.weight-bar {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 2px solid #FDBA74;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.weight-bar:hover {
+  width: 14px;
+  height: 14px;
+  border-color: #F97316;
+  box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.1);
+}
+
+.weight-bar.current {
+  width: 14px;
+  height: 14px;
+  border-color: #F97316;
+  background: #F97316;
+}
+
+.weight-date {
+  color: #64748B;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  white-space: nowrap;
+  margin-top: auto;
+}
+
+.weight-value {
+  color: #0F172A;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  white-space: nowrap;
+  position: absolute;
+  transform: translateX(20px);
+  top: 50%;
+  left: 50%;
+  background: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #E2E8F0;
+  z-index: 2;
+}
+
+.weight-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-group {
+  display: flex;
+  gap: 32px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-item .stat-label {
+  color: #6B7280;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.stat-item .stat-value {
+  color: #1F2937;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.stat-value.current {
+  color: #F97316;
+}
+
+.stat-value.success {
+  color: #10B981;
+}
+
+.stat-value.trend {
+  color: #10B981;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.trend-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #10B981;
+}
+
+.goal-badge {
+  background: #FFF7ED;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.goal-badge .goal-label {
+  color: #6B7280;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.goal-badge .goal-value {
+  color: #F97316;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.weight-entries {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weight-entries h2 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.weight-entries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.weight-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.weight-entry:hover {
+  background: #f1f3f5;
+}
+
+.weight-entry-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.weight-entry-icon {
+  font-size: 1.25rem;
+}
+
+.weight-entry-value {
+  font-weight: 500;
+  color: #333;
+}
+
+.weight-entry-date {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.weight-entry-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.delete-weight-entry {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.delete-weight-entry:hover {
+  background: rgba(220, 53, 69, 0.1);
+}
+
+.no-weight-entries {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.view-more-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  color: #495057;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 0.5rem;
+}
+
+.view-more-btn:hover {
+  background: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.view-more-btn:active {
+  background: #dee2e6;
+}

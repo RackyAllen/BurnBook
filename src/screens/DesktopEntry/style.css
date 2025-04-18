@@ -1,0 +1,158 @@
+.entry-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.entry-modal {
+  width: 480px;
+  height: 473px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.entry-modal-header {
+  width: 416px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.entry-modal-header h2 {
+  color: #1F2937;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.close-button {
+  width: 15px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9CA3AF;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry-form {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #374151;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 416px;
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #ADAEBC;
+}
+
+.form-group input::placeholder {
+  color: #ADAEBC;
+}
+
+.entry-type-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.entry-type-button {
+  width: 200px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.entry-type-button.active {
+  background: #F97316;
+  color: white;
+}
+
+.entry-type-button.inactive {
+  background: #F3F4F6;
+  color: #374151;
+}
+
+.meal-select {
+  width: 416px;
+  height: 47px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+.save-entry-btn {
+  width: 416px;
+  height: 44px;
+  background: #F97316;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Prevent scrolling on body when modal is open */
+body {
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+} 

@@ -1,0 +1,1089 @@
+.desktop-mymeals {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #ced4da;
+  display: inline-flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+}
+
+.desktop-mymeals .body-7 {
+  align-items: flex-start;
+  border: 0px none;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.desktop-mymeals .body-7::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.desktop-mymeals .div-129 {
+  background-color: #f9fafb;
+  border: 0px none;
+  height: 1440px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-mymeals .div-130 {
+  background-color: #ffffff;
+  border: 0px none;
+  box-shadow: 0px 10px 15px #0000001a, 0px 4px 6px #0000001a;
+  height: 1026px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.desktop-mymeals .div-131 {
+  border: 0px none;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.desktop-mymeals .div-132 {
+  border: 0px none;
+  height: 28px;
+  left: 24px;
+  position: absolute;
+  top: 24px;
+  width: 208px;
+}
+
+.desktop-mymeals .frame-45 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+
+.desktop-mymeals .frame-46 {
+  height: 20px;
+  position: relative;
+  width: 17.5px;
+}
+
+.desktop-mymeals .text-wrapper-95 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.desktop-mymeals .div-133 {
+  border: 0px none;
+  height: 176px;
+  left: 24px;
+  position: absolute;
+  top: 100px;
+  width: 208px;
+}
+
+.desktop-mymeals .button-23 {
+  all: unset;
+  background-color: #f97316;
+  border: 0px none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.desktop-mymeals .i-5 {
+  border: 0px none;
+  height: 16px;
+  left: 58px;
+  position: absolute;
+  top: 16px;
+  width: 14px;
+}
+
+.desktop-mymeals .frame-wrapper-2 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  position: relative;
+  width: 14px;
+}
+
+.desktop-mymeals .frame-47 {
+  height: 16px;
+  position: relative;
+  width: 14px;
+}
+
+.desktop-mymeals .span-6 {
+  border: 0px none;
+  height: 24px;
+  left: 80px;
+  position: absolute;
+  top: 12px;
+  width: 70px;
+}
+
+.desktop-mymeals .text-wrapper-96 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 76px;
+}
+
+.desktop-mymeals .div-134 {
+  border: 0px none;
+  border-radius: 8px;
+  display: block;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 208px;
+}
+
+.desktop-mymeals .frame-48 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 14px;
+}
+
+.desktop-mymeals .text-wrapper-97 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+.desktop-mymeals .div-135 {
+  background-color: #ffedd5;
+  border: 0px none;
+  border-radius: 8px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 128px;
+  width: 208px;
+}
+
+.desktop-mymeals .i-6 {
+  border: 0px none;
+  height: 16px;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 14px;
+}
+
+.desktop-mymeals .span-7 {
+  border: 0px none;
+  height: 24px;
+  left: 34px;
+  position: absolute;
+  top: 12px;
+  width: 68px;
+}
+
+.desktop-mymeals .text-wrapper-98 {
+  color: #f97316;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 73px;
+}
+
+.desktop-mymeals .div-136 {
+  border: 0px none;
+  height: 160px;
+  left: 0;
+  position: absolute;
+  top: 866px;
+  width: 256px;
+}
+
+.desktop-mymeals .div-137 {
+  border: 0px none;
+  border-radius: 8px;
+  display: block;
+  height: 48px;
+  left: 24px;
+  position: absolute;
+  top: 24px;
+  width: 208px;
+}
+
+.desktop-mymeals .frame-49 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 16px;
+}
+
+.desktop-mymeals .frame-50 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-mymeals .text-wrapper-99 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.desktop-mymeals .div-138 {
+  border: 0px none;
+  border-radius: 8px;
+  display: block;
+  height: 48px;
+  left: 24px;
+  position: absolute;
+  top: 88px;
+  width: 208px;
+}
+
+.desktop-mymeals .text-wrapper-100 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.desktop-mymeals .div-139 {
+  border: 0px none;
+  height: 1440px;
+  left: 256px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  width: 1184px;
+}
+
+.desktop-mymeals .div-139::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.desktop-mymeals .div-140 {
+  border: 0px none;
+  height: 32px;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 1120px;
+}
+
+.desktop-mymeals .text-wrapper-101 {
+  color: #1f2937;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.desktop-mymeals .div-141 {
+  border: 0px none;
+  height: 24px;
+  left: 915px;
+  position: absolute;
+  top: 4px;
+  width: 205px;
+}
+
+.desktop-mymeals .frame-51 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.desktop-mymeals .text-wrapper-102 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 181px;
+}
+
+.desktop-mymeals .div-142 {
+  background-color: #ffffff;
+  border: 0px none;
+  border-radius: 16px;
+  box-shadow: 0px 1px 2px #0000000d;
+  height: 518px;
+  left: 32px;
+  position: absolute;
+  top: 96px;
+  width: 1120px;
+}
+
+.desktop-mymeals .h-2 {
+  border: 0px none;
+  height: 28px;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 1056px;
+}
+
+.desktop-mymeals .text-wrapper-103 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.desktop-mymeals .div-143 {
+  border: 0px none;
+  height: 402px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 672px;
+}
+
+.desktop-mymeals .div-144 {
+  border: 0px none;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 672px;
+}
+
+.desktop-mymeals .label-8 {
+  border: 0px none;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 72px;
+}
+
+.desktop-mymeals .text-wrapper-104 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.desktop-mymeals .input-8 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 42px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  padding-left: 16px;
+  position: absolute;
+  top: 28px;
+  width: 672px;
+}
+
+.desktop-mymeals .div-145 {
+  border: 0px none;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 94px;
+  width: 672px;
+}
+
+.desktop-mymeals .label-9 {
+  border: 0px none;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 51px;
+}
+
+.desktop-mymeals .text-wrapper-105 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.desktop-mymeals .input-9 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 672px;
+}
+
+.desktop-mymeals .text-wrapper-106 {
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 42px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  width: 104px;
+}
+
+.desktop-mymeals .div-146 {
+  border: 0px none;
+  height: 142px;
+  left: 0;
+  position: absolute;
+  top: 188px;
+  width: 672px;
+}
+
+.desktop-mymeals .label-10 {
+  border: 0px none;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 70px;
+}
+
+.desktop-mymeals .text-wrapper-107 {
+  color: #374151;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 77px;
+}
+
+.desktop-mymeals .textarea {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d1d5db;
+  border-radius: 8px;
+  height: 114px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 28px;
+  width: 672px;
+}
+
+.desktop-mymeals .text-wrapper-108 {
+  color: #adaebc;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  width: 170px;
+}
+
+.desktop-mymeals .button-24 {
+  all: unset;
+  background-color: #f97316;
+  border: 0px none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 354px;
+  width: 672px;
+}
+
+.desktop-mymeals .text-wrapper-109 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 298px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+  width: 78px;
+}
+
+.desktop-mymeals .div-147 {
+  background-color: #ffffff;
+  border: 0px none;
+  border-radius: 16px;
+  box-shadow: 0px 1px 2px #0000000d;
+  height: 284px;
+  left: 32px;
+  position: absolute;
+  top: 646px;
+  width: 1120px;
+}
+
+.desktop-mymeals .text-wrapper-110 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 123px;
+}
+
+.desktop-mymeals .div-148 {
+  border: 0px none;
+  height: 168px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 1056px;
+}
+
+.desktop-mymeals .div-149 {
+  background-color: #f9fafb;
+  border: 0px none;
+  border-radius: 8px;
+  height: 76px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1056px;
+}
+
+.desktop-mymeals .div-150 {
+  border: 0px none;
+  height: 44px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 204px;
+}
+
+.desktop-mymeals .frame-52 {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 14px;
+}
+
+.desktop-mymeals .div-151 {
+  border: 0px none;
+  height: 44px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.desktop-mymeals .text-wrapper-111 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 115px;
+}
+
+.desktop-mymeals .text-wrapper-112 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 187px;
+}
+
+.desktop-mymeals .div-152 {
+  border: 0px none;
+  height: 24px;
+  left: 958px;
+  position: absolute;
+  top: 26px;
+  width: 82px;
+}
+
+.desktop-mymeals .text-wrapper-113 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 58px;
+}
+
+.desktop-mymeals .button-25 {
+  border: 0px none;
+  height: 16px;
+  left: 68px;
+  position: absolute;
+  top: 4px;
+  width: 14px;
+}
+
+.desktop-mymeals .div-153 {
+  background-color: #f9fafb;
+  border: 0px none;
+  border-radius: 8px;
+  height: 76px;
+  left: 0;
+  position: absolute;
+  top: 92px;
+  width: 1056px;
+}
+
+.desktop-mymeals .div-154 {
+  border: 0px none;
+  height: 44px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 239px;
+}
+
+.desktop-mymeals .div-155 {
+  border: 0px none;
+  height: 44px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 209px;
+}
+
+.desktop-mymeals .text-wrapper-114 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 109px;
+}
+
+.desktop-mymeals .text-wrapper-115 {
+  color: #6b7280;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 223px;
+}
+
+.desktop-mymeals .text-wrapper-116 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.desktop-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #F8F9FA;
+}
+
+.dashboard-content {
+  flex: 1;
+}
+
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: none;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav-button:hover {
+  background: #F8F9FA;
+}
+
+.nav-button.active {
+  background: #E9ECEF;
+}
+
+.nav-button.primary {
+  background: #4A90E2;
+  color: white;
+}
+
+.button-icon {
+  font-size: 18px;
+}
+
+.bottom-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  margin-left: 240px;
+  padding: 32px;
+  background: #F8F9FA;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-icon {
+  font-size: 20px;
+}
+
+/* My Meals specific styles */
+.meals-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.add-meal-section, .saved-meals-section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.add-meal-section h2 {
+  color: #1F2937;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  color: #374151;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #94A3B8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.meal-description-input::placeholder {
+  color: #94A3B8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.save-meal-btn {
+  background-color: #FF6B00;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.save-meal-btn:hover {
+  background-color: #E55C00;
+}
+
+.meals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #F8F9FA;
+  border-radius: 8px;
+}
+
+.meal-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.meal-icon {
+  font-size: 24px;
+}
+
+.meal-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.saved-meals-section h2 {
+  color: #1F2937;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.meal-item h3 {
+  color: #1F2937;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.meal-item p {
+  color: #6B7280;
+  font-size: 14px;
+  margin: 4px 0 0;
+}
