@@ -39,7 +39,7 @@ Before running this project, ensure you have:
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/RackyAllen/BurnBook.git
 cd BurnBook
 ```
 
